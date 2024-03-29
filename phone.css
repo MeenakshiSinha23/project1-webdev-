@@ -1,0 +1,49 @@
+body{
+    background-color:brown;
+}
+/* Navigation */
+#navbar{
+    flex-direction:column;
+    position:sticky;
+}
+#navbar ul li a{
+    font-size:1rem;
+    padding:0px 7px;
+    padding-bottom:8px;
+    
+}
+/* Home */
+#home{
+    height: 280px;
+    flex-direction:column;
+    padding:3px 6px;
+    padding-bottom: 8px;
+
+   
+
+}
+#home::before{
+    height:480px;
+}
+/* services */
+#services{
+flex-direction: column;
+}
+#services .box{
+
+}
+/* client section */
+#client{
+    overflow:hidden;
+    
+}
+/* Footer */
+
+/* Utility classes */
+.h-primary{
+    font-size:26px;
+}
+.btn{
+    font-size:13px;
+    padding:4px 8px; 
+}
